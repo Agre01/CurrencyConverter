@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W&auml;hrungsumrechner</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>W&auml;hrungsumrechner</h1>
+      <input type="number" id="amount" value="1" />
+      <select id="fromCurrency">
+        <option value="USD">US-Dollar</option>
+        <option value="EUR">Euro</option>
+        <option value="GBP">Britischer Pfund</option>
+        <option value="JPY">Japanischer Yen</option>
+      </select>
+      <p>zu</p>
+      <select id="toCurrency">
+        <option value="USD">US-Dollar</option>
+        <option value="EUR">Euro</option>
+        <option value="GBP">Britischer Pfund</option>
+        <option value="JPY">Japanischer Yen</option>
+      </select>
+      <button onclick="convertCurrency()">Umrechnen</button>
+      <h2>Ergebnis: <span id="result">0</span></h2>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <p>* Alle Angaben ohne Gewähr</p>
+  </footer>
+</html>
