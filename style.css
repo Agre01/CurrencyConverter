@@ -10,12 +10,11 @@ button {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.container,
-footer {
+.container, footer {
   text-align: center;
 }
 
 .github {
-  width: 70px;
+  width: 100px;
   height: auto;
 }
